@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_title_home">首页</string>
+    <string name="app_title_dashboard">我的</string>
+    <string name="app_title_notifications">Notifications</string>
+
+    <string name="app_main_nav_title_home">首页</string>
+    <string name="app_main_nav_title_history">历史</string>
+    <string name="app_main_nav_title_test">测试</string>
+    <string name="app_main_nav_title_mine">我的</string>
+
+
+    <string name="app_main_privacy_dialog_title">个人信息保护指引</string>
+    <string name="app_main_privacy_dialog_desc">\u30001.我们会遵守本APP隐私政策手机，使用信息，但不会仅因为同意本%1$s政策而采取强制捆绑的方式搜集信息；</string>
+    <string name="app_main_privacy_dialog_desc2">\u30002.相册、文件读写权限均不会默认开启，只有经过明示授权才会在为实现功能或服务时使用，不会在功能服务不需要时而通过您授权的权限手机信息。</string>
+    <string name="app_main_privacy_dialog_desc3">您可以查看完整版的</string>
+    <string name="app_main_privacy_dialog_and">和</string>
+    <string name="app_main_privacy_dialog_sure">同意</string>
+    <string name="app_main_privacy_dialog_cancel">不同意并退出</string>
+
+</resources>

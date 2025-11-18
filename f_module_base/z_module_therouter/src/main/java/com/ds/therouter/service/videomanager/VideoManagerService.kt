@@ -1,0 +1,15 @@
+package com.ds.therouter.service.videomanager
+
+import android.app.Application
+import com.ds.res.NavItem
+
+/**
+ * @Author ljiezhou
+ * @date 2024/6/17
+ * @Description
+ */
+interface VideoManagerService {
+    fun init(application: Application, channel: String)
+
+    fun getNavItems(): List<NavItem>
+}

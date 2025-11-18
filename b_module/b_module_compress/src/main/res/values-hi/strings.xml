@@ -1,0 +1,72 @@
+<resources>
+    <!--    HomeFragment-->
+    <string name="image_compress_by_quality_title">एकल छवि संपीड़न</string>
+    <string name="image_compress_by_quality_desc">आकार और अनुपात को समायोजित करें</string>
+
+    <string name="image_compress_by_scale_title">बैच संपीड़न</string>
+    <string name="image_compress_by_scale_desc">कई छवियों को संपीड़ित करें</string>
+
+    <string name="image_compress_by_fix_size_title">छवि का आकार निर्दिष्ट करें</string>
+    <string name="image_compress_by_fix_size_desc">सटीक आकार निर्दिष्ट करें</string>
+
+    <string name="image_compress_by_sample_size_title">नमूना आकार के आधार पर संपीड़न</string>
+    <string name="image_compress_by_sample_size_desc">नमूना आकार के अनुसार संपीड़न करें</string>
+
+    <string name="image_compress_by_about_us">हमारे बारे में</string>
+    <string name="image_compress_by_contact_us">हमसे संपर्क करें</string>
+    <string name="image_compress_more">अधिक सुविधाएँ जल्द आ रही हैं</string>
+
+    <string name="image_compress_result_title">"%1$s" एल्बम में सहेजा गया</string>
+    <string name="image_compress_result_desc">सहेजी गई जगह:</string>
+    <string name="image_compress_result_del">मूल छवि हटाएं</string>
+    <string name="image_compress_result_back">मुख पृष्ठ पर वापस जाएं</string>
+
+    <!--    MineFragment-->
+    <string name="image_mine_service">उपयोग की शर्तें</string>
+    <string name="image_mine_privatecy">गोपनीयता नीति</string>
+
+    <!--    EditImageActivity-->
+    <string name="image_edit_image_desc">मूल छवि: %1$s %2$s  संपीड़न के बाद: %3$s %4$s</string>
+    <string name="image_edit_image_comporess_desc">संपीड़न के बाद: %1$s</string>
+    <string name="image_edit_image_title">मूल छवि:</string>
+    <string name="image_edit_image_compress_title">संपीड़न के बाद:</string>
+
+    <string name="image_edit_scale_title">छवि रिज़ॉल्यूशन (समप्रमाणिक स्केलिंग)</string>
+    <string name="image_edit_scale_100_title">मूल</string>
+    <string name="image_edit_scale_100_desc">100%</string>
+
+    <string name="image_edit_scale_70_title">मध्यम</string>
+    <string name="image_edit_scale_70_desc">70%</string>
+
+    <string name="image_edit_scale_30_title">छोटा</string>
+    <string name="image_edit_scale_30_desc">30%</string>
+
+    <string name="image_edit_scale_custom_title">कस्टम</string>
+    <string name="image_edit_scale_custom_desc">चौड़ाई और ऊंचाई निर्दिष्ट करें</string>
+
+    <string name="image_edit_quality_title">छवि की गुणवत्ता</string>
+    <string name="image_edit_quality_100_title">मूल</string>
+    <string name="image_edit_quality_100_desc">10</string>
+
+    <string name="image_edit_quality_70_title">उच्च</string>
+    <string name="image_edit_quality_70_desc">8</string>
+
+    <string name="image_edit_quality_30_title">मध्यम</string>
+    <string name="image_edit_quality_30_desc">5</string>
+
+    <string name="image_edit_quality_custom_title">निम्न</string>
+    <string name="image_edit_quality_custom_desc">3</string>
+
+    <!--    CustomSizePopup-->
+    <string name="image_edit_custom_size_popup_title">कस्टम आकार</string>
+    <string name="image_edit_custom_size_popup_fix_width">चौड़ाई निर्दिष्ट करें</string>
+    <string name="image_edit_custom_size_popup_fix_height">ऊंचाई निर्दिष्ट करें</string>
+    <string name="image_edit_custom_size_popup_fix_pixel">पिक्सेल</string>
+    <string name="image_edit_custom_size_popup_fix_ratio">अनुपात बनाए रखें (कोई विकृति नहीं)</string>
+
+    <string name="image_cancel">रद्द करें</string>
+    <string name="image_sure">पुष्टि करें</string>
+
+    <string name="image_edit_progress_desc">छवि %1$d संपीड़न हो रही है</string>
+    <string name="image_home_test">Test</string>
+</resources>

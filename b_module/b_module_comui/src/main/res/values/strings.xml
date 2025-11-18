@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="common_ui_feedback_content">反馈内容</string>
+    <string name="common_ui_feedback_content_tips">请写下您的宝贵意见或建议</string>
+    <string name="common_ui_feedback_success">反馈成功</string>
+    <string name="common_ui_feedback_fail">反馈失败，请重试...</string>
+</resources>

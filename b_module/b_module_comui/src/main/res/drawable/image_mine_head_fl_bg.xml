@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    <item-->
+    <!--        android:gravity="top"-->
+    <!--        android:left="-150dp"-->
+    <!--        android:right="-150dp"-->
+    <!--        android:top="-100dp">-->
+
+    <!--        <shape android:shape="oval">-->
+
+    <!--            <gradient-->
+    <!--                android:angle="0"-->
+    <!--                android:endColor="#eb7a1a"-->
+    <!--                android:startColor="#FAAA66" />-->
+
+    <!--&lt;!&ndash;            &lt;!&ndash;可以控制图形边缘到控件边缘的距离&ndash;&gt;-->
+    <!--&lt;!&ndash;                高度控制垂直方向&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;            <size&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:width="50dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:height="350dp" />&ndash;&gt;-->
+    <!--        </shape>-->
+    <!--    </item>-->
+    <item>
+        <shape>
+            <solid android:color="@color/common_res_primary_color"></solid>
+        </shape>
+    </item>
+</layer-list>

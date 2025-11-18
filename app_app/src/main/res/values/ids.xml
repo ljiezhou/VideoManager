@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_nva_id_home" type="id"/>
+    <item name="main_nva_id_history" type="id"/>
+    <item name="main_nva_id_image" type="id"/>
+    <item name="main_nva_id_test" type="id"/>
+    <item name="main_nva_id_mine" type="id"/>
+</resources>

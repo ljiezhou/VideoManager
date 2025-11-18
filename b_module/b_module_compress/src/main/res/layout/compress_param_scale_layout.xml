@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/base_color_white">
+
+        <TextView
+            android:id="@+id/scale_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="缩放方式"
+            android:textColor="@color/common_text_black33"
+            android:textSize="@dimen/sp_18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text=" " />
+
+        <RadioGroup
+            android:id="@+id/scale_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:checkedButton="@+id/auto_radio"
+            android:padding="@dimen/dp_0"
+            app:layout_constraintStart_toStartOf="@id/scale_tv"
+            app:layout_constraintTop_toBottomOf="@id/scale_tv">
+
+            <RadioButton
+                android:id="@+id/scale_percent_auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:buttonTint="@color/common_res_primary_color"
+                android:checked="true"
+                android:text="百分比" />
+
+            <RadioButton
+                android:id="@+id/scale_specify_size_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:buttonTint="@color/common_res_primary_color"
+                android:text="像素" />
+        </RadioGroup>
+
+        <View
+            android:id="@+id/scale_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/base_res_gray_bg"
+            app:layout_constraintTop_toBottomOf="@id/scale_radio_group" />
+
+        <include
+            android:id="@+id/scale_percent_layout"
+            layout="@layout/compress_param_percent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            app:layout_constraintTop_toBottomOf="@id/scale_line" />
+
+        <include
+            android:id="@+id/scale_resolution_layout"
+            layout="@layout/compress_param_scale_resolution_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginEnd="@dimen/dp_16"
+            app:layout_constraintTop_toBottomOf="@id/scale_line"
+            tools:visibility="gone" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/base_color_white"
+        android:paddingBottom="@dimen/dp_10">
+
+        <TextView
+            android:id="@+id/quality_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="图片质量"
+            android:textColor="@color/base_color_black"
+            android:textSize="@dimen/sp_18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/quality_desc_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:text="保持原图质量"
+            android:textColor="@color/base_color_black"
+            android:textSize="@dimen/sp_16"
+            app:layout_constraintStart_toStartOf="@id/quality_tv"
+            app:layout_constraintTop_toBottomOf="@id/quality_tv" />
+
+        <Switch
+            android:id="@+id/quality_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/quality_desc_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/quality_desc_tv" />
+
+        <include
+            android:id="@+id/quality_percent_layout"
+            layout="@layout/compress_param_percent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:paddingEnd="@dimen/dp_16"
+            app:layout_constraintTop_toBottomOf="@id/quality_desc_tv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

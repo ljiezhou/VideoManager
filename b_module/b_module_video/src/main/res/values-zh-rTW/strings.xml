@@ -1,0 +1,72 @@
+<resources>
+    <!--    HomeFragment-->
+    <string name="image_compress_by_quality_title">單張圖片壓縮</string>
+    <string name="image_compress_by_quality_desc">調整尺寸，調整比例</string>
+
+    <string name="image_compress_by_scale_title">批次壓縮</string>
+    <string name="image_compress_by_scale_desc">壓縮多張圖片</string>
+
+    <string name="image_compress_by_fix_size_title">指定圖片大小</string>
+    <string name="image_compress_by_fix_size_desc">設置精確大小</string>
+
+    <string name="image_compress_by_sample_size_title">按樣本大小壓縮</string>
+    <string name="image_compress_by_sample_size_desc">根據樣本大小進行壓縮</string>
+
+    <string name="image_compress_by_about_us">關於我們</string>
+    <string name="image_compress_by_contact_us">聯絡我們</string>
+    <string name="image_compress_more">更多功能即將推出</string>
+
+    <string name="image_compress_result_title">已保存至相簿「%1$s」</string>
+    <string name="image_compress_result_desc">儲存位置:</string>
+    <string name="image_compress_result_del">刪除原始圖片</string>
+    <string name="image_compress_result_back">返回主頁</string>
+
+    <!--    MineFragment-->
+    <string name="image_mine_service">使用條款</string>
+    <string name="image_mine_privatecy">隱私政策</string>
+
+    <!--    EditImageActivity-->
+    <string name="image_edit_image_desc">原始圖片：%1$s %2$s  壓縮後：%3$s %4$s</string>
+    <string name="image_edit_image_comporess_desc">壓縮後：%1$s</string>
+    <string name="image_edit_image_title">原始圖片：</string>
+    <string name="image_edit_image_compress_title">壓縮後：</string>
+
+    <string name="image_edit_scale_title">圖片解析度（按比例縮放）</string>
+    <string name="image_edit_scale_100_title">原始</string>
+    <string name="image_edit_scale_100_desc">100%</string>
+
+    <string name="image_edit_scale_70_title">中等</string>
+    <string name="image_edit_scale_70_desc">70%</string>
+
+    <string name="image_edit_scale_30_title">小型</string>
+    <string name="image_edit_scale_30_desc">30%</string>
+
+    <string name="image_edit_scale_custom_title">自定義</string>
+    <string name="image_edit_scale_custom_desc">指定寬度和高度</string>
+
+    <string name="image_edit_quality_title">圖片質量</string>
+    <string name="image_edit_quality_100_title">原始</string>
+    <string name="image_edit_quality_100_desc">10</string>
+
+    <string name="image_edit_quality_70_title">高</string>
+    <string name="image_edit_quality_70_desc">8</string>
+
+    <string name="image_edit_quality_30_title">中</string>
+    <string name="image_edit_quality_30_desc">5</string>
+
+    <string name="image_edit_quality_custom_title">低</string>
+    <string name="image_edit_quality_custom_desc">3</string>
+
+    <!--    CustomSizePopup-->
+    <string name="image_edit_custom_size_popup_title">自定義尺寸</string>
+    <string name="image_edit_custom_size_popup_fix_width">指定寬度</string>
+    <string name="image_edit_custom_size_popup_fix_height">指定高度</string>
+    <string name="image_edit_custom_size_popup_fix_pixel">像素</string>
+    <string name="image_edit_custom_size_popup_fix_ratio">保持比例（無變形）</string>
+
+    <string name="image_cancel">取消</string>
+    <string name="image_sure">確認</string>
+
+    <string name="image_edit_progress_desc">正在壓縮圖片 %1$d</string>
+    <string name="image_home_test">Test</string>
+</resources>

@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- HomeFragment -->
+    <string name="image_compress_by_quality_title">単一圧縮</string>
+    <string name="image_compress_by_quality_desc">画像のスリム化、サイズ変更</string>
+
+    <string name="image_compress_by_scale_title">バッチ圧縮</string>
+    <string name="image_compress_by_scale_desc">バッチ画像圧縮とスリム化</string>
+
+    <string name="image_compress_by_fix_size_title">画像サイズを指定</string>
+    <string name="image_compress_by_fix_size_desc">指定サイズ</string>
+
+    <string name="image_compress_by_sample_size_title">サンプリングサイズで圧縮</string>
+    <string name="image_compress_by_sample_size_desc">サンプリングサイズで圧縮</string>
+
+    <string name="image_compress_by_about_us">私たちについて</string>
+    <string name="image_compress_by_contact_us">お問い合わせ</string>
+    <string name="image_compress_more">新機能、近日公開予定</string>
+
+    <string name="image_home_test">Test</string>
+
+    <string name="image_compress_result_title">"%1$s"アルバムに保存されました</string>
+    <string name="image_compress_result_desc">保存場所：</string>
+    <string name="image_compress_result_del">元の画像を削除</string>
+    <string name="image_compress_result_back">ホームに戻る</string>
+
+    <!-- MineFragment -->
+    <string name="image_mine_service">利用規約</string>
+    <string name="image_mine_privatecy">プライバシーポリシー</string>
+
+    <!-- EditImageActivity -->
+    <string name="image_edit_image_desc">元画像: %1$s %2$s  圧縮後: %3$s %4$s</string>
+    <string name="image_edit_image_comporess_desc">圧縮後: %1$s</string>
+    <string name="image_edit_image_title">元画像：</string>
+    <string name="image_edit_image_compress_title">圧縮後：</string>
+    <string name="image_edit_scale_title">画像解像度（等倍スケーリング）</string>
+    <string name="image_edit_scale_100_title">元画像</string>
+    <string name="image_edit_scale_100_desc">100%</string>
+
+    <string name="image_edit_scale_70_title">中</string>
+    <string name="image_edit_scale_70_desc">70%</string>
+
+    <string name="image_edit_scale_30_title">小</string>
+    <string name="image_edit_scale_30_desc">30%</string>
+
+    <string name="image_edit_scale_custom_title">カスタム</string>
+    <string name="image_edit_scale_custom_desc">幅と高さを指定</string>
+
+    <!-- quality compress -->
+    <string name="image_edit_quality_title">画像の品質</string>
+    <string name="image_edit_quality_100_title">元画像</string>
+    <string name="image_edit_quality_100_desc">10</string>
+
+    <string name="image_edit_quality_70_title">高</string>
+    <string name="image_edit_quality_70_desc">8</string>
+
+    <string name="image_edit_quality_30_title">中</string>
+    <string name="image_edit_quality_30_desc">5</string>
+
+    <string name="image_edit_quality_custom_title">低</string>
+    <string name="image_edit_quality_custom_desc">3</string>
+
+    <!-- CustomSizePopup -->
+    <string name="image_edit_custom_size_popup_title">カスタムサイズ</string>
+    <string name="image_edit_custom_size_popup_fix_width">幅を指定</string>
+    <string name="image_edit_custom_size_popup_fix_height">高さを指定</string>
+    <string name="image_edit_custom_size_popup_fix_pixel">ピクセル</string>
+    <string name="image_edit_custom_size_popup_fix_ratio">固定のアスペクト比（歪みなし）</string>
+
+    <string name="image_cancel">キャンセル</string>
+    <string name="image_sure">確定</string>
+
+    <string name="image_edit_progress_desc">画像 %1$d を圧縮中</string>
+</resources>

@@ -1,0 +1,72 @@
+<resources>
+    <!--    HomeFragment-->
+    <string name="image_compress_by_quality_title">Одиночное сжатие изображения</string>
+    <string name="image_compress_by_quality_desc">Уменьшение размера, изменение пропорций</string>
+
+    <string name="image_compress_by_scale_title">Массовое сжатие</string>
+    <string name="image_compress_by_scale_desc">Сжатие нескольких изображений</string>
+
+    <string name="image_compress_by_fix_size_title">Указание размера изображения</string>
+    <string name="image_compress_by_fix_size_desc">Точное указание размера</string>
+
+    <string name="image_compress_by_sample_size_title">Сжатие по размеру выборки</string>
+    <string name="image_compress_by_sample_size_desc">Сжатие на основе размера выборки</string>
+
+    <string name="image_compress_by_about_us">О Нас</string>
+    <string name="image_compress_by_contact_us">Свяжитесь с нами</string>
+    <string name="image_compress_more">Скоро больше функций</string>
+
+    <string name="image_compress_result_title">Сохранено в альбоме "%1$s"</string>
+    <string name="image_compress_result_desc">Местоположение сохранено:</string>
+    <string name="image_compress_result_del">Удалить оригинальное изображение</string>
+    <string name="image_compress_result_back">Вернуться на главную страницу</string>
+
+    <!--    MineFragment-->
+    <string name="image_mine_service">Условия использования</string>
+    <string name="image_mine_privatecy">Политика конфиденциальности</string>
+
+    <!--    EditImageActivity-->
+    <string name="image_edit_image_desc">Оригинал: %1$s %2$s  После сжатия: %3$s %4$s</string>
+    <string name="image_edit_image_comporess_desc">После сжатия: %1$s</string>
+    <string name="image_edit_image_title">Оригинал:</string>
+    <string name="image_edit_image_compress_title">После сжатия:</string>
+
+    <string name="image_edit_scale_title">Разрешение изображения (пропорциональное масштабирование)</string>
+    <string name="image_edit_scale_100_title">Оригинал</string>
+    <string name="image_edit_scale_100_desc">100%</string>
+
+    <string name="image_edit_scale_70_title">Средний</string>
+    <string name="image_edit_scale_70_desc">70%</string>
+
+    <string name="image_edit_scale_30_title">Малый</string>
+    <string name="image_edit_scale_30_desc">30%</string>
+
+    <string name="image_edit_scale_custom_title">Пользовательский</string>
+    <string name="image_edit_scale_custom_desc">Указать ширину и высоту</string>
+
+    <string name="image_edit_quality_title">Качество изображения</string>
+    <string name="image_edit_quality_100_title">Оригинал</string>
+    <string name="image_edit_quality_100_desc">10</string>
+
+    <string name="image_edit_quality_70_title">Высокое</string>
+    <string name="image_edit_quality_70_desc">8</string>
+
+    <string name="image_edit_quality_30_title">Среднее</string>
+    <string name="image_edit_quality_30_desc">5</string>
+
+    <string name="image_edit_quality_custom_title">Низкое</string>
+    <string name="image_edit_quality_custom_desc">3</string>
+
+    <!--    CustomSizePopup-->
+    <string name="image_edit_custom_size_popup_title">Пользовательский размер</string>
+    <string name="image_edit_custom_size_popup_fix_width">Задать ширину</string>
+    <string name="image_edit_custom_size_popup_fix_height">Задать высоту</string>
+    <string name="image_edit_custom_size_popup_fix_pixel">Пиксели</string>
+    <string name="image_edit_custom_size_popup_fix_ratio">Сохранить пропорции (без искажений)</string>
+
+    <string name="image_cancel">Отменить</string>
+    <string name="image_sure">Подтвердить</string>
+
+    <string name="image_edit_progress_desc">Сжатие изображения %1$d</string>
+    <string name="image_home_test">Test</string>
+</resources>

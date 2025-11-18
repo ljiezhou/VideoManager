@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan_manage_popup_permission">授予所有文件的管理权限</string>
+    <string name="scan_manage_popup_sure">同意</string>
+    <string name="scan_manage_popup_cancel">暂不</string>
+    <string name="scan_do_not_ask_again_sure">设置</string>
+    <string name="scan_do_not_ask_again_cancel">拒绝</string>
+
+
+
+    <!--    doNotAskAgain-->
+    <string name="scan_do_not_ask_again_desc">%1$s需要保存文档到您的手机中\n请到系统设置-%2$s-权限，打开存储空间权限</string>
+    <string name="scan_do_not_ask_again_desc2">%1$s需要读取您手机中的图片\n请到系统设置-%1$s-权限，打开存储空间权限</string>
+    <string name="scan_do_not_ask_again_desc3">%1$s需要使用你的相机功能\n请到系统设置-%2$s-权限，打开相机权限</string>
+
+</resources>

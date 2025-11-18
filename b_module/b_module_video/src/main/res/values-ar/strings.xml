@@ -1,0 +1,72 @@
+<resources>
+    <!--    HomeFragment-->
+    <string name="image_compress_by_quality_title">ضغط صورة فردية</string>
+    <string name="image_compress_by_quality_desc">تعديل الحجم والأبعاد</string>
+
+    <string name="image_compress_by_scale_title">الضغط الجماعي</string>
+    <string name="image_compress_by_scale_desc">ضغط عدة صور</string>
+
+    <string name="image_compress_by_fix_size_title">تحديد حجم الصورة</string>
+    <string name="image_compress_by_fix_size_desc">تحديد الحجم الدقيق</string>
+
+    <string name="image_compress_by_sample_size_title">الضغط حسب حجم العينة</string>
+    <string name="image_compress_by_sample_size_desc">الضغط بناءً على حجم العينة</string>
+
+    <string name="image_compress_by_about_us">من نحن</string>
+    <string name="image_compress_by_contact_us">اتصل بنا</string>
+    <string name="image_compress_more">المزيد من الميزات قادمة قريبًا</string>
+
+    <string name="image_compress_result_title">تم الحفظ في الألبوم "%1$s"</string>
+    <string name="image_compress_result_desc">الموقع المحفوظ:</string>
+    <string name="image_compress_result_del">حذف الصورة الأصلية</string>
+    <string name="image_compress_result_back">العودة إلى الصفحة الرئيسية</string>
+
+    <!--    MineFragment-->
+    <string name="image_mine_service">شروط الخدمة</string>
+    <string name="image_mine_privatecy">سياسة الخصوصية</string>
+
+    <!--    EditImageActivity-->
+    <string name="image_edit_image_desc">الصورة الأصلية: %1$s %2$s  بعد الضغط: %3$s %4$s</string>
+    <string name="image_edit_image_comporess_desc">بعد الضغط: %1$s</string>
+    <string name="image_edit_image_title">الصورة الأصلية:</string>
+    <string name="image_edit_image_compress_title">بعد الضغط:</string>
+
+    <string name="image_edit_scale_title">دقة الصورة (الحفاظ على النسبة)</string>
+    <string name="image_edit_scale_100_title">أصلي</string>
+    <string name="image_edit_scale_100_desc">100%</string>
+
+    <string name="image_edit_scale_70_title">متوسط</string>
+    <string name="image_edit_scale_70_desc">70%</string>
+
+    <string name="image_edit_scale_30_title">صغير</string>
+    <string name="image_edit_scale_30_desc">30%</string>
+
+    <string name="image_edit_scale_custom_title">تخصيص</string>
+    <string name="image_edit_scale_custom_desc">تحديد العرض والارتفاع</string>
+
+    <string name="image_edit_quality_title">جودة الصورة</string>
+    <string name="image_edit_quality_100_title">أصلي</string>
+    <string name="image_edit_quality_100_desc">10</string>
+
+    <string name="image_edit_quality_70_title">عالي</string>
+    <string name="image_edit_quality_70_desc">8</string>
+
+    <string name="image_edit_quality_30_title">متوسط</string>
+    <string name="image_edit_quality_30_desc">5</string>
+
+    <string name="image_edit_quality_custom_title">منخفض</string>
+    <string name="image_edit_quality_custom_desc">3</string>
+
+    <!--    CustomSizePopup-->
+    <string name="image_edit_custom_size_popup_title">حجم مخصص</string>
+    <string name="image_edit_custom_size_popup_fix_width">تحديد العرض</string>
+    <string name="image_edit_custom_size_popup_fix_height">تحديد الارتفاع</string>
+    <string name="image_edit_custom_size_popup_fix_pixel">بكسل</string>
+    <string name="image_edit_custom_size_popup_fix_ratio">الحفاظ على النسبة (بدون تشويه)</string>
+
+    <string name="image_cancel">إلغاء</string>
+    <string name="image_sure">موافق</string>
+
+    <string name="image_edit_progress_desc">جاري ضغط الصورة %1$d</string>
+    <string name="image_home_test">Test</string>
+</resources>

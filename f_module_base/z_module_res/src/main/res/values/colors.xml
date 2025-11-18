@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    典型紫色：    HEX: #800080-->
+    <!--    深紫色：    HEX: #4B0082-->
+    <!--    蓝紫色：    HEX: #6A5ACD-->
+    <!--    紫罗兰色：   HEX: #9400D3-->
+    <!--    淡紫色：    HEX: #9370DB-->
+    <color name="common_res_primary_color">#ee1b42</color>
+    <!--    <color name="common_res_primary_variant_color">#9400D3</color>-->
+    <color name="common_res_primary_variant_color">#00000000</color>
+    <color name="common_res_color_on_primary">#FFFFFFFF</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="theme_color">#eb7a1a</color>
+    <color name="common_res_text_color"></color>
+    <color name="base_res_gray_bg">#EDEDED</color>
+    <color name="base_res_line_bg">#66E2E0E0</color>
+    <color name="base_text_gray">#B1ADAD</color>
+    <color name="base_color_white">#ffffff</color>
+    <color name="base_color_black">#000000</color>
+
+    <color name="common_popup_bg"></color>
+
+    <color name="common_text_black33">#ff333333</color>
+    <color name="common_text_black_color">#000000</color>
+    <color name="common_text_gray_color">#66000000</color>
+    <color name="common_text_whie_color">#ffffff</color>
+
+    <color name="common_bg_color">#fafafa</color>
+</resources>

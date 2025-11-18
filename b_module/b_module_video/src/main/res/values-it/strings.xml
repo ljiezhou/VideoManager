@@ -1,0 +1,72 @@
+<resources>
+    <!--    HomeFragment-->
+    <string name="image_compress_by_quality_title">Compressione singola immagine</string>
+    <string name="image_compress_by_quality_desc">Modifica dimensione e proporzioni</string>
+
+    <string name="image_compress_by_scale_title">Compressione in batch</string>
+    <string name="image_compress_by_scale_desc">Comprimi più immagini</string>
+
+    <string name="image_compress_by_fix_size_title">Specifica la dimensione dell\'immagine</string>
+    <string name="image_compress_by_fix_size_desc">Imposta dimensione esatta</string>
+
+    <string name="image_compress_by_sample_size_title">Compressione in base alla dimensione del campione</string>
+    <string name="image_compress_by_sample_size_desc">Comprimi in base alla dimensione del campione</string>
+
+    <string name="image_compress_by_about_us">Chi siamo</string>
+    <string name="image_compress_by_contact_us">Contattaci</string>
+    <string name="image_compress_more">Altre funzionalità in arrivo</string>
+
+    <string name="image_compress_result_title">Salvato nell\'album "%1$s"</string>
+    <string name="image_compress_result_desc">Posizione di salvataggio:</string>
+    <string name="image_compress_result_del">Elimina immagine originale</string>
+    <string name="image_compress_result_back">Torna alla home</string>
+
+    <!--    MineFragment-->
+    <string name="image_mine_service">Termini di servizio</string>
+    <string name="image_mine_privatecy">Politica sulla privacy</string>
+
+    <!--    EditImageActivity-->
+    <string name="image_edit_image_desc">Immagine originale: %1$s %2$s  Dopo compressione: %3$s %4$s</string>
+    <string name="image_edit_image_comporess_desc">Dopo compressione: %1$s</string>
+    <string name="image_edit_image_title">Immagine originale:</string>
+    <string name="image_edit_image_compress_title">Dopo compressione:</string>
+
+    <string name="image_edit_scale_title">Risoluzione immagine (ridimensionamento proporzionale)</string>
+    <string name="image_edit_scale_100_title">Originale</string>
+    <string name="image_edit_scale_100_desc">100%</string>
+
+    <string name="image_edit_scale_70_title">Medio</string>
+    <string name="image_edit_scale_70_desc">70%</string>
+
+    <string name="image_edit_scale_30_title">Piccolo</string>
+    <string name="image_edit_scale_30_desc">30%</string>
+
+    <string name="image_edit_scale_custom_title">Personalizzato</string>
+    <string name="image_edit_scale_custom_desc">Specifica larghezza e altezza</string>
+
+    <string name="image_edit_quality_title">Qualità immagine</string>
+    <string name="image_edit_quality_100_title">Originale</string>
+    <string name="image_edit_quality_100_desc">10</string>
+
+    <string name="image_edit_quality_70_title">Alta</string>
+    <string name="image_edit_quality_70_desc">8</string>
+
+    <string name="image_edit_quality_30_title">Media</string>
+    <string name="image_edit_quality_30_desc">5</string>
+
+    <string name="image_edit_quality_custom_title">Bassa</string>
+    <string name="image_edit_quality_custom_desc">3</string>
+
+    <!--    CustomSizePopup-->
+    <string name="image_edit_custom_size_popup_title">Dimensioni personalizzate</string>
+    <string name="image_edit_custom_size_popup_fix_width">Specifica larghezza</string>
+    <string name="image_edit_custom_size_popup_fix_height">Specifica altezza</string>
+    <string name="image_edit_custom_size_popup_fix_pixel">Pixel</string>
+    <string name="image_edit_custom_size_popup_fix_ratio">Mantieni proporzioni (nessuna distorsione)</string>
+
+    <string name="image_cancel">Annulla</string>
+    <string name="image_sure">Conferma</string>
+
+    <string name="image_edit_progress_desc">Compressione immagine %1$d in corso</string>
+    <string name="image_home_test">Test</string>
+</resources>

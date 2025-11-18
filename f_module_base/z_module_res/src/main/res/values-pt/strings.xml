@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="res_terms_of_service">Termos de Serviço</string>
+    <string name="res_privacy_policy">Política de Privacidade</string>
+    <string name="main_book">"%1$s"</string>
+
+    <string name="feedback">Comentários</string>
+    <string name="res_version_name">Versão: %1$s</string>
+</resources>

@@ -1,0 +1,72 @@
+<resources>
+    <!--    HomeFragment-->
+    <string name="image_compress_by_quality_title">개별 이미지 압축</string>
+    <string name="image_compress_by_quality_desc">크기 조정, 차원 변경</string>
+
+    <string name="image_compress_by_scale_title">일괄 압축</string>
+    <string name="image_compress_by_scale_desc">여러 이미지 압축</string>
+
+    <string name="image_compress_by_fix_size_title">이미지 크기 지정</string>
+    <string name="image_compress_by_fix_size_desc">정확한 크기 설정</string>
+
+    <string name="image_compress_by_sample_size_title">샘플 크기로 압축</string>
+    <string name="image_compress_by_sample_size_desc">샘플 크기를 기반으로 압축</string>
+
+    <string name="image_compress_by_about_us">회사 소개</string>
+    <string name="image_compress_by_contact_us">문의하기</string>
+    <string name="image_compress_more">더 많은 기능이 곧 추가됩니다</string>
+
+    <string name="image_compress_result_title">"%1$s" 앨범에 저장되었습니다</string>
+    <string name="image_compress_result_desc">저장된 위치:</string>
+    <string name="image_compress_result_del">원본 이미지 삭제</string>
+    <string name="image_compress_result_back">홈으로 돌아가기</string>
+
+    <!--    MineFragment-->
+    <string name="image_mine_service">이용 약관</string>
+    <string name="image_mine_privatecy">개인정보 보호정책</string>
+
+    <!--    EditImageActivity-->
+    <string name="image_edit_image_desc">원본 이미지: %1$s %2$s  압축 후: %3$s %4$s</string>
+    <string name="image_edit_image_comporess_desc">압축 후: %1$s</string>
+    <string name="image_edit_image_title">원본 이미지:</string>
+    <string name="image_edit_image_compress_title">압축 후:</string>
+
+    <string name="image_edit_scale_title">이미지 해상도 (비율 유지)</string>
+    <string name="image_edit_scale_100_title">원본</string>
+    <string name="image_edit_scale_100_desc">100%</string>
+
+    <string name="image_edit_scale_70_title">중간</string>
+    <string name="image_edit_scale_70_desc">70%</string>
+
+    <string name="image_edit_scale_30_title">작게</string>
+    <string name="image_edit_scale_30_desc">30%</string>
+
+    <string name="image_edit_scale_custom_title">사용자 지정</string>
+    <string name="image_edit_scale_custom_desc">너비 및 높이 지정</string>
+
+    <string name="image_edit_quality_title">이미지 품질</string>
+    <string name="image_edit_quality_100_title">원본</string>
+    <string name="image_edit_quality_100_desc">10</string>
+
+    <string name="image_edit_quality_70_title">높음</string>
+    <string name="image_edit_quality_70_desc">8</string>
+
+    <string name="image_edit_quality_30_title">중간</string>
+    <string name="image_edit_quality_30_desc">5</string>
+
+    <string name="image_edit_quality_custom_title">낮음</string>
+    <string name="image_edit_quality_custom_desc">3</string>
+
+    <!--    CustomSizePopup-->
+    <string name="image_edit_custom_size_popup_title">사용자 지정 크기</string>
+    <string name="image_edit_custom_size_popup_fix_width">너비 설정</string>
+    <string name="image_edit_custom_size_popup_fix_height">높이 설정</string>
+    <string name="image_edit_custom_size_popup_fix_pixel">픽셀</string>
+    <string name="image_edit_custom_size_popup_fix_ratio">비율 유지 (왜곡 없음)</string>
+
+    <string name="image_cancel">취소</string>
+    <string name="image_sure">확인</string>
+
+    <string name="image_edit_progress_desc">이미지 %1$d 압축 중</string>
+    <string name="image_home_test">Test</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_splash_dialog_bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dp_10"
+    android:paddingTop="@dimen/dp_16"
+    android:paddingRight="@dimen/dp_10"
+    android:paddingBottom="@dimen/dp_20">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/app_main_privacy_dialog_title"
+        android:textColor="@color/common_text_black33"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="2"
+        tools:listitem="@layout/app_splash_dialog_item" />
+
+    <TextView
+        android:id="@+id/dialog_desc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_10"
+        android:lineSpacingMultiplier="1.4"
+        android:textColor="@color/common_text_black33"
+        android:textSize="@dimen/sp_16"
+        tools:text="@string/app_main_privacy_dialog_desc3" />
+
+    <TextView
+        android:id="@+id/dialog_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:background="@drawable/app_splash_dialog_btn_bg"
+        android:gravity="center"
+        android:paddingTop="@dimen/dp_13"
+        android:paddingBottom="@dimen/dp_13"
+        android:text="@string/app_main_privacy_dialog_sure"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20" />
+
+    <TextView
+        android:id="@+id/dialog_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="@string/app_main_privacy_dialog_cancel"
+        android:textSize="@dimen/sp_16" />
+</LinearLayout>

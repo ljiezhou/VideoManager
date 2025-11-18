@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="res_terms_of_service">شروط الخدمة</string>
+    <string name="res_privacy_policy">سياسة الخصوصية</string>
+    <string name="main_book">"%1$s"</string>
+
+    <string name="feedback">ملاحظات</string>
+    <string name="res_version_name">الإصدار: %1$s</string>
+</resources>

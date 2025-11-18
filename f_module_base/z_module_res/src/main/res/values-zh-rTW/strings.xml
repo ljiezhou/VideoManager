@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="res_terms_of_service">服務條款</string>
+    <string name="res_privacy_policy">隱私政策</string>
+    <string name="main_book">「%1$s」</string>
+
+    <string name="feedback">意見反饋</string>
+    <string name="res_version_name">版本： %1$s</string>
+</resources>

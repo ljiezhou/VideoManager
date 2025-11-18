@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="res_terms_of_service">Условия Обслуживания</string>
+    <string name="res_privacy_policy">Политика Конфиденциальности</string>
+    <string name="main_book">"%1$s"</string>
+
+    <string name="feedback">Обратная связь</string>
+    <string name="res_version_name">Версия: %1$s</string>
+</resources>

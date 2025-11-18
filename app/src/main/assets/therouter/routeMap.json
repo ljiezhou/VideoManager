@@ -1,0 +1,16 @@
+[
+  {
+    "path": "app/privacyActivity",
+    "className": "com.ds.commonui.web.PrivacyActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "app/FeedbackActivity",
+    "className": "com.ds.commonui.feedback.FeedbackActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  }
+]

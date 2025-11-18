@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:gravity="top"
+        android:left="-150dp"
+        android:right="-150dp"
+        android:top="-100dp">
+
+        <shape android:shape="oval">
+
+            <gradient
+                android:angle="0"
+                android:endColor="#eb7a1a"
+                android:startColor="#FAAA66" />
+
+<!--            &lt;!&ndash;可以控制图形边缘到控件边缘的距离-->
+<!--                高度控制垂直方向&ndash;&gt;-->
+<!--            <size-->
+<!--                android:width="50dp"-->
+<!--                android:height="350dp" />-->
+        </shape>
+    </item>
+</layer-list>
