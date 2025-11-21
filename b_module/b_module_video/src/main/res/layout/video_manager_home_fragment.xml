@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/app_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="APP Name"
+        android:textColor="@color/common_res_text_primary"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.ds.roundcorners.RoundEditText
+        android:id="@+id/search_et"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        android:layout_marginHorizontal="@dimen/dp_20"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/common_res_card_background_color"
+        app:layout_constraintStart_toStartOf="@id/app_name_tv"
+        android:hint="搜索"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintTop_toBottomOf="@id/app_name_tv"
+        app:rRadius="@dimen/dp_50" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_et" />
 </androidx.constraintlayout.widget.ConstraintLayout>

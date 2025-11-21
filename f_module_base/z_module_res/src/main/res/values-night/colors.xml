@@ -31,21 +31,21 @@
     <color name="common_bg_color">#fafafa</color>
 
 
-    <!-- 主色调 -->
+    <!-- 主色调（保持一致，也可以稍微调整亮度） -->
     <color name="common_res_primary_color">#3D8AFF</color>
 
     <!-- 辅助色 -->
     <color name="common_res_accent_color">#FF6B6B</color>
 
     <!-- 背景色 -->
-    <color name="common_res_background_color">#F9FAFB</color>
+    <color name="common_res_background_color">#121212</color>
 
     <!-- 卡片背景色 -->
-    <color name="common_res_card_background_color">#FFFFFF</color>
+    <color name="common_res_card_background_color">#1E1E1E</color>
 
     <!-- 主标题 / 高亮文字 -->
-    <color name="common_res_text_primary">#1F1F1F</color>
+    <color name="common_res_text_primary">#FFFFFF</color>
 
     <!-- 副标题 / 说明文字 -->
-    <color name="common_res_text_secondary">#6B6B6B</color>
+    <color name="common_res_text_secondary">#B0B0B0</color>
 </resources>
