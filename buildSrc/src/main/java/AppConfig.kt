@@ -68,6 +68,7 @@ object ModuleConfig {
     const val z_module_compose = ":${f_module}:z_module_compose"
     const val z_module_image = ":${f_module}:z_module_image"
     const val z_module_res = ":${f_module}:z_module_res"
+    const val z_module_round_view = ":${f_module}:z_module_round_view"
     const val z_module_screenmatch = ":${f_module}:z_module_screenmatch"
     const val z_module_app_name = ":${f_module}:z_module_app_name"
     const val z_module_therouter = ":${f_module}:z_module_therouter"

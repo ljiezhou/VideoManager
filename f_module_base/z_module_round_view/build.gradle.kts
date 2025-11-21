@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.module.res"
+    namespace = "com.ds.roundcorners"
     compileSdk = AppConfig.compileSdkVersion
 
     defaultConfig {
@@ -13,31 +13,16 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-
-        buildConfigField("String", "common_app_name", "\"${AppConfig.applicationName}\"")
-
-        buildConfigField("String", "common_applicationId", "\"${AppConfig.applicationId}\"")
-//
-        buildConfigField("String", "common_version_code", "\"${AppConfig.versionCode}\"")
-        buildConfigField("String", "common_version_name", "\"${AppConfig.versionName}\"")
-//
-//
-        buildConfigField("String", "privacy_policy_url", "\"${AppConfig.PRIVACY_POLICY}\"")
-        buildConfigField("String", "terms_of_service_url", "\"${AppConfig.TERMS_OF_SERVICE}\"")
-//
-        buildConfigField("String", "email", "\"${AppConfig.email}\"")
         consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
         release {
             consumerProguardFiles += file("proguard-rules.pro")
-//            resValue("string", "common_app_name", AppConfig.applicationName)
             resValue("string", "common_applicationId", AppConfig.applicationId)
         }
         debug {
             consumerProguardFiles += file("proguard-rules.pro")
-//            resValue("string", "common_app_name", AppConfig.applicationName)
             resValue("string", "common_applicationId", AppConfig.applicationId)
         }
     }
@@ -55,8 +40,6 @@ android {
 
 dependencies {
     api(libs.kotlin.stdlib)
-    api(libs.immersionbar)
-    api(libs.immersionbar.ktx)
     api(libs.utilcodex)
 
     api(libs.material)
@@ -64,7 +47,6 @@ dependencies {
     api(libs.androidx.activity)
     api(libs.androidx.activity.ktx)
     api(project(ModuleConfig.z_module_app_name))
-    api(project(ModuleConfig.z_module_round_view))
     api(project(ModuleConfig.z_module_screenmatch))
 
     testApi(libs.junit)
