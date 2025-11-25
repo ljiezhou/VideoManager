@@ -37,13 +37,22 @@ public class RoundEditText extends AppCompatEditText implements RoundMethodInter
         mHelper.onSizeChanged(w, h);
     }
 
+//    @Override
+//    public void draw(Canvas canvas) {
+//        mHelper.preDraw(canvas);
+//        super.draw(canvas);
+//        mHelper.drawPath(canvas);
+//    }
     @Override
     public void draw(Canvas canvas) {
         mHelper.preDraw(canvas);
-        super.draw(canvas);
+        super.draw(canvas);   // hint、text、cursor 都在这里画
+        canvas.save();
+        // 重要：重新 clip 回正常区域，避免覆盖 hint
+        canvas.clipRect(0, 0, getWidth(), getHeight());
         mHelper.drawPath(canvas);
+        canvas.restore();
     }
-
     @Override
     public void setRadius(float radiusDp) {
         mHelper.setRadius(radiusDp);

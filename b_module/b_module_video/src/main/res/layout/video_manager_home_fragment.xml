@@ -4,29 +4,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Space
+        android:id="@+id/top_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/app_name_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_20"
-        android:layout_marginTop="@dimen/dp_30"
         android:text="APP Name"
         android:textColor="@color/common_res_text_primary"
         android:textSize="@dimen/sp_20"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/top_space"
+        app:layout_constraintTop_toBottomOf="@id/top_space" />
 
     <com.ds.roundcorners.RoundEditText
         android:id="@+id/search_et"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/dp_0"
         android:layout_height="@dimen/dp_44"
-        android:layout_marginHorizontal="@dimen/dp_20"
-        android:gravity="center"
+        android:layout_marginHorizontal="@dimen/dp_16"
         android:layout_marginTop="@dimen/dp_10"
         android:background="@color/common_res_card_background_color"
-        app:layout_constraintStart_toStartOf="@id/app_name_tv"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
         android:hint="搜索"
+        android:textColor="@color/common_res_text_primary"
+        android:textColorHint="@color/common_res_text_secondary"
         android:textSize="@dimen/sp_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/app_name_tv"
         app:rRadius="@dimen/dp_50" />
 

@@ -10,10 +10,10 @@ class MainRepository {
     companion object {
         fun getItems(): ArrayList<NavItem> {
             val items = arrayListOf<NavItem>()
-            TheRouter.get(CompressManagerService::class.java)?.let {
+            TheRouter.get(VideoManagerService::class.java)?.let {
                 items.addAll(it.getNavItems())
             }
-            TheRouter.get(VideoManagerService::class.java)?.let {
+            TheRouter.get(CompressManagerService::class.java)?.let {
                 items.addAll(it.getNavItems())
             }
             return items
