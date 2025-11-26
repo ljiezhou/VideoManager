@@ -46,6 +46,16 @@
     <!-- 主标题 / 高亮文字 -->
     <color name="common_res_text_primary">#FFFFFF</color>
 
-    <!-- 副标题 / 说明文字 -->
-    <color name="common_res_text_secondary">#B0B0B0</color>
+    <!-- RecyclerView Item 默认背景 -->
+    <color name="common_res_item_background">#1E1E1E</color>
+
+    <!-- RecyclerView Item 分割线（深灰） -->
+    <color name="common_res_item_divider">#2A2A2A</color>
+
+    <!-- Item 点击 / Ripple 效果（浅主色调波纹） -->
+    <color name="common_res_item_ripple_color">#33FFFFFF</color>
+    <!-- 20% 白色，用于暗色模式的通用 ripple  -->
+
+    <!-- Item 按压背景（稍微亮一点以体现按压） -->
+    <color name="common_res_item_pressed_color">#2A2A2A</color>
 </resources>
