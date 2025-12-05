@@ -1,5 +1,6 @@
 package com.ds.videomanager.ui
 
+import com.ds.videomanager.R
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -13,6 +14,16 @@ class VideoManagerHomeAdapter : BaseQuickAdapter<ItemLayoutData, VideoManagerHom
         if (item == null) return
         holder.binding.apply {
             titleTv.setText(item.titleId)
+
+            // Set the appropriate icon based on the title ID
+            val iconResource = when (item.titleId) {
+                R.string.video_manager_video_compress -> R.drawable.ic_video_compress
+                R.string.video_manager_video_crop -> R.drawable.ic_video_crop
+                R.string.video_manager_audio_extract -> R.drawable.ic_audio_extract
+                R.string.video_manager_video_manager -> R.drawable.ic_video_manager
+                else -> R.drawable.ic_video_manager
+            }
+            iconIv.setImageResource(iconResource)
         }
     }
 

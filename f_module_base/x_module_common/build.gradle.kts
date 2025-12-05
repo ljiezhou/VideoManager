@@ -1,7 +1,9 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id("com.google.devtools.ksp")
+//    id("com.google.devtools.ksp")
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.compose.compiler)
 }
 android {
     namespace = "com.ds.common"
@@ -33,9 +35,9 @@ android {
     buildFeatures {
         compose = true
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion = SDKConfig.COMPOSE_VERSION
-    }
+//    composeOptions {
+//        kotlinCompilerExtensionVersion = SDKConfig.COMPOSE_VERSION
+//    }
 }
 
 dependencies {

@@ -113,6 +113,7 @@
 
     <string name="video_manager_tab_title">视频管理</string>
     <string name="video_manager_video_compress">视频压缩</string>
+    <string name="video_manager_video_compress_desc">压缩视频以节省存储空间，同时保持视频质量</string>
     <string name="video_manager_video_crop">视频裁剪</string>
     <string name="video_manager_audio_extract">提取音频</string>
     <string name="video_manager_video_manager">视频管理</string>
